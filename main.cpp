@@ -10,10 +10,10 @@
 using namespace std;
 
 /**
- * The number of different letters in word
+ * The number of different letters in the word
  * 
  * @param word The word
- * @return The number of different letters in word
+ * @return The number of different letters in the word
  */
 int differentLetters(string word) {
     double r = 0;
@@ -38,7 +38,7 @@ int main(int argc, char** argv) {
 
     cin >> s;
     n = differentLetters(s);
-    cout << "The number of different letters in word: " << n << endl;
+    cout << "The number of different letters in the word: " << n << endl;
 
     return 0;
 }
