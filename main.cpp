@@ -26,7 +26,7 @@ int differentLetters(string word) {
                 ++n;
             }
         }
-        r = r + (int) (1.0 / n);
+        r += (int) (1.0 / n);
     }
 
     return (int) r;
